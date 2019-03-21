@@ -1,0 +1,32 @@
+8 2 1 1
+41	M
+41	C
+53	M
+162	M
+26	M
+103	M
+103	C
+26	C
+77	M
+26	C
+
+8 Bits in word.
+2 Bytes in cache.
+1 Bytes in block.
+1 Lines in block.
+
+2 / 1 = 2 Blocks in Cache, 1 bit index.
+1 / 1 = 1 Byte in Line, 0 bit offset.
+
+0010100_1	[][]
+0010100_1	[][]
+0011010_1	[][]
+1010001_0	[][]
+0001101_0	[][]
+0110011_1	[][]
+0110011_1	[][]
+0001101_0	[][]
+0100110_1	[][]
+0001101_0	[][]
+
+MCMMMMCCMC

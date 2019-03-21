@@ -1,0 +1,33 @@
+8 8 2 1
+160
+161
+241
+199
+241
+240
+64
+65
+199
+64
+
+8 Bits in word.
+8 Bytes in cache.
+2 Bytes in block.
+1 Lines in block. Block contains 1 value.
+
+8 / 2 = 4 Blocks in Cache, 2 bit index.
+2 / 1 = 2 Bytes in Line, 1 bit offset.
+
+
+10100_00_0	[20][]	Two blocks interacted with.
+10100_00_1	[20][]
+11110_00_1	[30][]
+11000_11_1	[30][24]
+11110_00_1	[30][24]
+11110_00_0	[30][24]
+01000_00_0	[8][24]
+01000_00_1	[8][24]
+11000_11_1	[8][24]
+01000_00_0	[8][24]
+
+MCMMCCMCCC

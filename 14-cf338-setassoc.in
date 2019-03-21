@@ -1,0 +1,33 @@
+8 4 2 2
+163
+163
+80
+80
+80
+80
+180
+80
+229
+80
+
+W = 8 Bits in word.
+C = 4 Bytes in cache.
+B = 2 Bytes in block.
+k = 2 Lines in block. Block contains this many addresses.
+
+C/B = 4 / 2 = 2 Blocks in Cache, 1 bit index.
+B/k = 2 / 2 = 1 Bytes in Line, 0 bit offset.
+
+
+81	1	[][81]		M
+81	1	[][81]		C
+40	0	[40][81]	M
+40	0	[40][81]	C
+40	0	[40][81]	C
+40	0	[40][81]	C
+90	0	[40,90][81]	M
+40	0	[90,40][81] C
+114	1	[90,40][81,114] M
+40	0	[90,40][81]	C
+
+MCMCCCMCMC

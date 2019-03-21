@@ -1,0 +1,22 @@
+8 2 1 1
+211
+211
+211
+211
+211
+
+8 Bits in word.
+2 Bytes in cache.
+1 Bytes in block.
+1 Lines in block.
+
+2 / 1 = 2 Blocks in Cache, 1 bit index.
+1 / 1 = 1 Byte in Line, 0 bit offset.
+                []
+211 - 1101001_1 [211][] M
+211 - 1101001_1 [211][] C
+211 - 1101001_1 [211][] C
+211 - 1101001_1 [211][] C
+211 - 1101001_1 [211][] C
+
+MCCCC
